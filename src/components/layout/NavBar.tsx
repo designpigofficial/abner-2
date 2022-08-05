@@ -1,13 +1,14 @@
 import { useRouter } from 'next/router';
 
 import { Box, Flex, HStack, useColorModeValue as mode } from '@chakra-ui/react';
-import { IconType } from 'react-icons';
+import { IconType, HiHome, HiOutLineInformationCircle, HiBriefcase } from 'react-icons';
 
 import ColorModeSwitcher from '@/components/ColorModeSwitcher';
 import Container from '@/components/Container';
 import MobileNav from '@/components/layout/MobileNav';
 import NavLink from '@/components/layout/NavLink';
 import Logo from '@/components/Logo';
+
 
 export type NavLinksType = {
   label: string;
