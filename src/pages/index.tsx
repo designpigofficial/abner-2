@@ -30,11 +30,11 @@ const HomePage = () => {
           <HStack>
             <Button
               as='a'
-              href='https://github.com/rizqitsani/next-chakra-ts-starter/generate'
+              href='/contact'
               target='_blank'
               rel='noopener noreferrer'
               size='sm'
-              colorScheme='grey'
+              colorScheme='black'
             >
               Hire Me
             </Button>
