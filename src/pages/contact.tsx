@@ -8,6 +8,11 @@ import {
   Link,
   Text,
   VStack,
+  FormControl,
+  FormLabel,
+  FormErrorMessage,
+  FormHelperText,
+  Input,
 } from '@chakra-ui/react';
 
 import Container from '@/components/Container';
@@ -28,6 +33,17 @@ const ContactPage = () => {
             Contact me here
           </Heading>
           <HStack>
+            <FormControl>
+              <FormLabel>Name:</FormLabel>
+              <Input type='text' />
+              <FormHelperText>What should we call you?</FormHelperText>
+              <FormLabel>Email:</FormLabel>
+              <Input type='email' />
+              <FormHelperText>What's your email address?</FormHelperText>
+              <FormLabel>Phone:</FormLabel>
+              <Input type='phone' />
+              <FormHelperText>Care to share your number?</FormHelperText>
+            </FormControl>
             <Button
               as='a'
               href='/contact'
