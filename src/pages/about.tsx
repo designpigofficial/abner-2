@@ -14,7 +14,7 @@ import Container from '@/components/Container';
 import Layout from '@/components/layout';
 
 
-const ContactPage = () => {
+const AboutPage = () => {
   return (
     <Layout>
       <Container as='main'>
@@ -25,18 +25,18 @@ const ContactPage = () => {
           spacing={6}
         >
           <Heading as='h1' color='primary' textAlign='center'>
-            Contact me here
+            About us
           </Heading>
           <HStack>
             <Button
               as='a'
-              href='/contact'
+              href='https://github.com/designpigofficial'
               target='_blank'
               rel='noopener noreferrer'
               size='sm'
               colorScheme='green'
             >
-              Submit
+              Github
             </Button>
           </HStack>
         </VStack>
@@ -45,4 +45,4 @@ const ContactPage = () => {
   );
 };
 
-export default ContactPage;
+export default AboutPage;

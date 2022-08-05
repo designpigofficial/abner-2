@@ -13,7 +13,6 @@ module.exports = {
         'style',
         'refactor',
         'ci',
-        'test',
         'revert',
         'perf',
         'vercel',

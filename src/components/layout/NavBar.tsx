@@ -1,7 +1,8 @@
 import { useRouter } from 'next/router';
 
 import { Box, Flex, HStack, useColorModeValue as mode } from '@chakra-ui/react';
-import { IconType, HiHome, HiOutLineInformationCircle, HiBriefcase } from 'react-icons';
+import { IconType } from 'react-icons';
+import { HiHome, HiOutlineInformationCircle, HiBriefcase } from 'react-icons/hi'
 
 import ColorModeSwitcher from '@/components/ColorModeSwitcher';
 import Container from '@/components/Container';
@@ -20,6 +21,7 @@ const links: NavLinksType = [
   { label: 'about', href: '/about', icon: HiHome },
   { label: 'services', href: '/services', icon: HiOutlineInformationCircle },
   { label: 'contact', href: '/contact', icon: HiBriefcase },
+  { label: 'projects', href: '/projects', icon: HiBriefcase },
 ];
 
 const NavBar = () => {

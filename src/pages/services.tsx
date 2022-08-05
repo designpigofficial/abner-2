@@ -14,7 +14,7 @@ import Container from '@/components/Container';
 import Layout from '@/components/layout';
 
 
-const ContactPage = () => {
+const ServicesPage = () => {
   return (
     <Layout>
       <Container as='main'>
@@ -25,7 +25,7 @@ const ContactPage = () => {
           spacing={6}
         >
           <Heading as='h1' color='primary' textAlign='center'>
-            Contact me here
+            What we can offer you
           </Heading>
           <HStack>
             <Button
@@ -36,7 +36,7 @@ const ContactPage = () => {
               size='sm'
               colorScheme='green'
             >
-              Submit
+              Hire Me
             </Button>
           </HStack>
         </VStack>
@@ -45,4 +45,4 @@ const ContactPage = () => {
   );
 };
 
-export default ContactPage;
+export default ServicesPage;
