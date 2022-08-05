@@ -27,7 +27,7 @@ const HomePage = () => {
           spacing={6}
         >
           <Heading as='h1' color='primary' textAlign='center'>
-            Next.js + Chakra UI + Typescript Starter
+            Abner Development
           </Heading>
           <HStack>
             <Link
