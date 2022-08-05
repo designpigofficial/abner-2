@@ -14,7 +14,7 @@ const theme = extendTheme({
     global: (props: StyleFunctionProps) => ({
       body: {
         color: mode('gray.800', 'whiteAlpha.900')(props),
-        bg: mode('white', 'gray.900')(props),
+        bg: mode('gray-200', 'gray.700')(props),
       },
     }),
   },
