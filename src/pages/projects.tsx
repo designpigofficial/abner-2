@@ -2,13 +2,12 @@ import * as React from 'react';
 
 import {
   Button,
+  Box,
   Heading,
   HStack,
-  Image,
-  Link,
-  Text,
   VStack,
 } from '@chakra-ui/react';
+import Card from '../components/Card'
 
 import Container from '@/components/Container';
 import Layout from '@/components/layout';
@@ -27,6 +26,12 @@ const ProjectsPage = () => {
           <Heading as='h1' color='primary' textAlign='center'>
             Our Work
           </Heading>
+          <Box>
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+          </Box>
           <HStack>
             <Button
               as='a'
