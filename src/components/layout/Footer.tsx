@@ -14,7 +14,7 @@ const Footer = () => {
       minH='4rem'
     >
       <Text fontSize='sm'>
-        © Muhammad Rizqi Tsani {new Date().getFullYear()}
+        © Abner Development {new Date().getFullYear()}
       </Text>
     </Container>
   );
