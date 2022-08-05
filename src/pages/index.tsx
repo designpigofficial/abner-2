@@ -34,7 +34,7 @@ const HomePage = () => {
               target='_blank'
               rel='noopener noreferrer'
               size='sm'
-              colorScheme='white'
+              colorScheme='green'
             >
               Hire Me
             </Button>
