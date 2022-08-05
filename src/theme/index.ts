@@ -5,8 +5,8 @@ const theme = extendTheme({
   semanticTokens: {
     colors: {
       primary: {
-        default: 'orange.600',
-        _dark: 'orange.300',
+        default: 'pink.600',
+        _dark: 'pink.300',
       },
     },
   },

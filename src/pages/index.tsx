@@ -28,8 +28,6 @@ const HomePage = () => {
             Abner Development
           </Heading>
           <HStack>
-           
-            <Text as='span'>or</Text>
             <Button
               as='a'
               href='https://github.com/rizqitsani/next-chakra-ts-starter/generate'
