@@ -16,9 +16,9 @@ export type NavLinksType = {
 }[];
 
 const links: NavLinksType = [
-  // { label: 'Home', href: '/', icon: HiHome },
-  // { label: 'Projects', href: '/projects', icon: HiOutlineInformationCircle },
-  // { label: 'About', href: '/about', icon: HiBriefcase },
+  { label: 'about', href: '/about', icon: HiHome },
+  { label: 'services', href: '/services', icon: HiOutlineInformationCircle },
+  { label: 'contact', href: '/contact', icon: HiBriefcase },
 ];
 
 const NavBar = () => {
