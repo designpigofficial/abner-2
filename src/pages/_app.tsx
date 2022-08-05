@@ -10,6 +10,7 @@ import emotionCache from '@/lib/emotion';
 import theme from '@/theme';
 
 import DEFAULT_SEO from '../../next-seo.config.js';
+import Layout from '@/Layout'
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
@@ -24,7 +25,9 @@ function MyApp({ Component, pageProps }: AppProps) {
             url: `https://next-chakra-ts-starter.vercel.app${router.asPath}`,
           }}
         />
+        <Layout>
         <Component {...pageProps} />
+        </Layout>
       </ChakraProvider>
     </CacheProvider>
   );
